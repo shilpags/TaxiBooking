@@ -1,0 +1,853 @@
+./script/../config/../app/controllers/application.rb:7: syntax error, unexpected ':', expecting kEND
+	protect_from_forgery with: :exception
+	                          ^
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:203:in `load_without_new_constant_marking'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:203:in `load_file'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:202:in `load_file'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:94:in `require_or_load'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:60:in `depend_on'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:442:in `require_dependency'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/rails-1.2.3/lib/dispatcher.rb:110:in `prepare_application'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/rails-1.2.3/lib/dispatcher.rb:39:in `dispatch'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/rails.rb:78:in `process'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/rails.rb:76:in `synchronize'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/rails.rb:76:in `process'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:618:in `process_client'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:617:in `each'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:617:in `process_client'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:736:in `run'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:736:in `initialize'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:736:in `new'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:736:in `run'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:720:in `initialize'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:720:in `new'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:720:in `run'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/configurator.rb:271:in `run'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/configurator.rb:270:in `each'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/configurator.rb:270:in `run'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/bin/mongrel_rails:127:in `run'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/command.rb:211:in `run'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/bin/mongrel_rails:243
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:488:in `load'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:488:in `load'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:488:in `load'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/rails-1.2.3/lib/commands/servers/mongrel.rb:60
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:495:in `require'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:495:in `require'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/rails-1.2.3/lib/commands/server.rb:39
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+./script/server:3
+
+
+Processing InfoController#properties (for 103.60.21.29 at 2017-03-19 15:39:15) [GET]
+  Session ID: 56330f9de8b6fa77263b7e13c667b7af
+  Parameters: {"action"=>"properties", "controller"=>"rails/info"}
+Completed in 0.00040 (2505 reqs/sec) | Rendering: 0.00002 (5%) | 500 Internal Server Error [http://10.113.57.216/rails/info/properties]
+
+
+Processing InfoController#properties (for 103.60.21.29 at 2017-03-19 15:41:01) [GET]
+  Session ID: 4f3a6325f36619fd44885b1998f44295
+  Parameters: {"action"=>"properties", "controller"=>"rails/info"}
+Completed in 0.00043 (2348 reqs/sec) | Rendering: 0.00003 (6%) | 500 Internal Server Error [http://10.113.57.216/rails/info/properties]
+
+
+Processing InfoController#properties (for 103.60.21.29 at 2017-03-19 15:42:41) [GET]
+  Session ID: 4f3a6325f36619fd44885b1998f44295
+  Parameters: {"action"=>"properties", "controller"=>"rails/info"}
+Completed in 0.00034 (2976 reqs/sec) | Rendering: 0.00002 (6%) | 500 Internal Server Error [http://10.113.57.216/rails/info/properties]
+
+
+Processing ApplicationController#index (for 103.60.21.29 at 2017-03-19 15:46:41) [GET]
+  Session ID: fa2c5b0724ad7da03c9336396cf281ed
+  Parameters: {}
+
+
+ActionController::RoutingError (no route found to match "/user/login.rhtml" with {:method=>:get}):
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/routing.rb:1292:in `recognize_path'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/routing.rb:1282:in `recognize'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/rails-1.2.3/lib/dispatcher.rb:40:in `dispatch'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/rails.rb:78:in `process'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/rails.rb:76:in `synchronize'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/rails.rb:76:in `process'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:618:in `process_client'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:617:in `each'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:617:in `process_client'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:736:in `run'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:736:in `initialize'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:736:in `new'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:736:in `run'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:720:in `initialize'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:720:in `new'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:720:in `run'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/configurator.rb:271:in `run'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/configurator.rb:270:in `each'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/configurator.rb:270:in `run'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/bin/mongrel_rails:127:in `run'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/command.rb:211:in `run'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/bin/mongrel_rails:243
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:488:in `load'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:488:in `load'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:488:in `load'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/rails-1.2.3/lib/commands/servers/mongrel.rb:60
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:495:in `require'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:495:in `require'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/rails-1.2.3/lib/commands/server.rb:39
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    ./script/server:3
+
+
+Rendering /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/templates/rescues/layout.rhtml (404 Page Not Found)
+
+
+Processing ApplicationController#index (for 103.60.21.29 at 2017-03-19 15:46:50) [GET]
+  Session ID: fa2c5b0724ad7da03c9336396cf281ed
+  Parameters: {}
+
+
+ActionController::RoutingError (no route found to match "/user/login" with {:method=>:get}):
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/routing.rb:1292:in `recognize_path'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/routing.rb:1282:in `recognize'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/rails-1.2.3/lib/dispatcher.rb:40:in `dispatch'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/rails.rb:78:in `process'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/rails.rb:76:in `synchronize'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/rails.rb:76:in `process'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:618:in `process_client'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:617:in `each'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:617:in `process_client'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:736:in `run'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:736:in `initialize'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:736:in `new'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:736:in `run'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:720:in `initialize'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:720:in `new'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:720:in `run'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/configurator.rb:271:in `run'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/configurator.rb:270:in `each'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/configurator.rb:270:in `run'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/bin/mongrel_rails:127:in `run'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/command.rb:211:in `run'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/bin/mongrel_rails:243
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:488:in `load'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:488:in `load'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:488:in `load'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/rails-1.2.3/lib/commands/servers/mongrel.rb:60
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:495:in `require'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:495:in `require'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/rails-1.2.3/lib/commands/server.rb:39
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    ./script/server:3
+
+
+Rendering /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/templates/rescues/layout.rhtml (404 Page Not Found)
+
+
+Processing ApplicationController#login (for 103.60.21.29 at 2017-03-19 15:47:56) [GET]
+  Session ID: fa2c5b0724ad7da03c9336396cf281ed
+  Parameters: {"action"=>"login", "controller"=>"users"}
+
+
+SyntaxError (./script/../config/../app/controllers/users_controller.rb:40: syntax error, unexpected ':', expecting ')'
+    		@payment = Payment.new(holder_name: params[:holder_name], card_number: params[:card_number],
+    		                                   ^
+./script/../config/../app/controllers/users_controller.rb:40: syntax error, unexpected ':', expecting '='
+    		@payment = Payment.new(holder_name: params[:holder_name], card_number: params[:card_number],
+    		                                                                      ^
+./script/../config/../app/controllers/users_controller.rb:41: syntax error, unexpected ':', expecting '='
+                           card_cvv: params[:card_cvv], card_expiry: params[:card_expiry], user: @user)
+                                    ^
+./script/../config/../app/controllers/users_controller.rb:41: syntax error, unexpected ':', expecting '='
+                           card_cvv: params[:card_cvv], card_expiry: params[:card_expiry], user: @user)
+                                                                    ^
+./script/../config/../app/controllers/users_controller.rb:41: syntax error, unexpected ':', expecting '='
+                           card_cvv: params[:card_cvv], card_expiry: params[:card_expiry], user: @user)
+                                                                                                ^):
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:203:in `load_without_new_constant_marking'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:203:in `load_file'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:202:in `load_file'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:94:in `require_or_load'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:248:in `load_missing_constant'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:452:in `const_missing'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:464:in `const_missing'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/inflector.rb:250:in `constantize'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/core_ext/string/inflections.rb:148:in `constantize'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/routing.rb:1284:in `recognize'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/rails-1.2.3/lib/dispatcher.rb:40:in `dispatch'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/rails.rb:78:in `process'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/rails.rb:76:in `synchronize'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/rails.rb:76:in `process'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:618:in `process_client'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:617:in `each'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:617:in `process_client'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:736:in `run'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:736:in `initialize'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:736:in `new'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:736:in `run'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:720:in `initialize'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:720:in `new'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:720:in `run'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/configurator.rb:271:in `run'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/configurator.rb:270:in `each'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/configurator.rb:270:in `run'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/bin/mongrel_rails:127:in `run'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/command.rb:211:in `run'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/bin/mongrel_rails:243
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:488:in `load'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:488:in `load'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:488:in `load'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/rails-1.2.3/lib/commands/servers/mongrel.rb:60
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:495:in `require'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:495:in `require'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/rails-1.2.3/lib/commands/server.rb:39
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    ./script/server:3
+
+
+Rendering /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing UsersController#login (for 103.60.21.29 at 2017-03-19 15:48:56) [GET]
+  Session ID: fa2c5b0724ad7da03c9336396cf281ed
+  Parameters: {"action"=>"login", "controller"=>"users"}
+
+
+ActionController::MissingTemplate (Missing layout script/../config/../app/views/layouts/application.rhtml):
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:1205:in `assert_existence_of_template_file'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/layout.rb:238:in `render_without_benchmark'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/benchmarking.rb:50:in `render'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/benchmarking.rb:50:in `render'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:1096:in `perform_action_without_filters'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:632:in `call_filter'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:619:in `perform_action_without_benchmark'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/rescue.rb:83:in `perform_action'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:430:in `send'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:430:in `process_without_filters'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:624:in `process_without_session_management_support'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/session_management.rb:114:in `process'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:330:in `process'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/rails-1.2.3/lib/dispatcher.rb:41:in `dispatch'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/rails.rb:78:in `process'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/rails.rb:76:in `synchronize'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/rails.rb:76:in `process'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:618:in `process_client'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:617:in `each'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:617:in `process_client'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:736:in `run'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:736:in `initialize'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:736:in `new'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:736:in `run'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:720:in `initialize'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:720:in `new'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:720:in `run'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/configurator.rb:271:in `run'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/configurator.rb:270:in `each'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/configurator.rb:270:in `run'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/bin/mongrel_rails:127:in `run'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/command.rb:211:in `run'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/bin/mongrel_rails:243
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:488:in `load'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:488:in `load'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:488:in `load'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/rails-1.2.3/lib/commands/servers/mongrel.rb:60
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:495:in `require'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:495:in `require'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/rails-1.2.3/lib/commands/server.rb:39
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    ./script/server:3
+
+
+Rendering /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing UsersController#login (for 103.60.21.29 at 2017-03-19 15:50:11) [GET]
+  Session ID: fa2c5b0724ad7da03c9336396cf281ed
+  Parameters: {"action"=>"login", "controller"=>"users"}
+Rendering users/login
+ERROR: compiling _run_rhtml_47app47views47users47login46rhtml RAISED compile error
+script/../config/../app/views/users/login.rhtml:4: syntax error, unexpected ')'
+_erbout.concat "  "; _erbout.concat(( form_tag(:action => 'login_attemp') do ).to_s); _erbout.concat "\n"
+                                                                              ^
+script/../config/../app/views/users/login.rhtml:11: syntax error, unexpected kEND, expecting ')'
+Function body: def _run_rhtml_47app47views47users47login46rhtml(local_assigns)
+_erbout = '';  @page_title = "UserAuth | Login" 
+_erbout.concat "<div class= \"Sign_Form\">\n"
+_erbout.concat "  <h1>Log in</h1>\n"
+_erbout.concat "  "; _erbout.concat(( form_tag(:action => 'login_attemp') do ).to_s); _erbout.concat "\n"
+_erbout.concat "    <p>Username or Email:</br> "; _erbout.concat(( text_field_tag(:username_or_email) ).to_s); _erbout.concat "</p> \n"
+_erbout.concat "    <p>Password:</br> "; _erbout.concat(( password_field_tag :login_password ).to_s); _erbout.concat "</p> \n"
+_erbout.concat "    "; _erbout.concat(( submit_tag("Log In") ).to_s); _erbout.concat "\n"
+_erbout.concat "  ";  end ; _erbout.concat "\n"
+_erbout.concat "</div>\n"
+_erbout
+end
+Backtrace: script/../config/../app/views/users/login.rhtml:11:in `compile_template'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_view/base.rb:319:in `compile_and_render_template'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_view/base.rb:301:in `render_template'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_view/base.rb:260:in `render_file'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:806:in `render_file'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:777:in `render_with_no_layout'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/layout.rb:256:in `render_without_benchmark'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/benchmarking.rb:50:in `render'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/1.8/benchmark.rb:293:in `measure'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/benchmarking.rb:50:in `render'
+./script/../config/../app/controllers/users_controller.rb:9:in `login'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:1095:in `send'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:1095:in `perform_action_without_filters'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:632:in `call_filter'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:619:in `perform_action_without_benchmark'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/1.8/benchmark.rb:293:in `measure'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/rescue.rb:83:in `perform_action'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:430:in `send'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:430:in `process_without_filters'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:624:in `process_without_session_management_support'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/session_management.rb:114:in `process'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:330:in `process'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/rails-1.2.3/lib/dispatcher.rb:41:in `dispatch'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/rails.rb:78:in `process'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/rails.rb:76:in `synchronize'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/rails.rb:76:in `process'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:618:in `process_client'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:617:in `each'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:617:in `process_client'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:736:in `run'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:736:in `initialize'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:736:in `new'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:736:in `run'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:720:in `initialize'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:720:in `new'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:720:in `run'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/configurator.rb:271:in `run'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/configurator.rb:270:in `each'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/configurator.rb:270:in `run'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/bin/mongrel_rails:127:in `run'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/command.rb:211:in `run'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/bin/mongrel_rails:243
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:488:in `load'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:488:in `load'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:488:in `load'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/rails-1.2.3/lib/commands/servers/mongrel.rb:60
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:495:in `require'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:495:in `require'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/rails-1.2.3/lib/commands/server.rb:39
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+./script/server:3
+
+
+ActionView::TemplateError (compile error
+script/../config/../app/views/users/login.rhtml:4: syntax error, unexpected ')'
+_erbout.concat "  "; _erbout.concat(( form_tag(:action => 'login_attemp') do ).to_s); _erbout.concat "\n"
+                                                                              ^
+script/../config/../app/views/users/login.rhtml:11: syntax error, unexpected kEND, expecting ')') on line #4 of app/views/users/login.rhtml:
+1: <% @page_title = "UserAuth | Login" -%>
+2: <div class= "Sign_Form">
+3:   <h1>Log in</h1>
+4:   <%= form_tag(:action => 'login_attemp') do %>
+5:     <p>Username or Email:</br> <%= text_field_tag(:username_or_email) %></p> 
+6:     <p>Password:</br> <%= password_field_tag :login_password %></p> 
+7:     <%= submit_tag("Log In") %>
+
+    #{RAILS_ROOT}/app/views/users/login.rhtml:11:in `compile_template'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_view/base.rb:319:in `compile_and_render_template'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_view/base.rb:301:in `render_template'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_view/base.rb:260:in `render_file'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:806:in `render_file'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:777:in `render_with_no_layout'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/layout.rb:256:in `render_without_benchmark'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/benchmarking.rb:50:in `render'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/benchmarking.rb:50:in `render'
+    app/controllers/users_controller.rb:9:in `login'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:1095:in `send'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:1095:in `perform_action_without_filters'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:632:in `call_filter'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:619:in `perform_action_without_benchmark'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/rescue.rb:83:in `perform_action'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:430:in `send'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:430:in `process_without_filters'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:624:in `process_without_session_management_support'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/session_management.rb:114:in `process'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:330:in `process'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/rails-1.2.3/lib/dispatcher.rb:41:in `dispatch'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/rails.rb:78:in `process'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/rails.rb:76:in `synchronize'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/rails.rb:76:in `process'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:618:in `process_client'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:617:in `each'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:617:in `process_client'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:736:in `run'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:736:in `initialize'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:736:in `new'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:736:in `run'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:720:in `initialize'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:720:in `new'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:720:in `run'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/configurator.rb:271:in `run'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/configurator.rb:270:in `each'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/configurator.rb:270:in `run'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/bin/mongrel_rails:127:in `run'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/command.rb:211:in `run'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/bin/mongrel_rails:243
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:488:in `load'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:488:in `load'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:488:in `load'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/rails-1.2.3/lib/commands/servers/mongrel.rb:60
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:495:in `require'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:495:in `require'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/rails-1.2.3/lib/commands/server.rb:39
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+
+Rendering /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing UsersController#login (for 103.60.21.29 at 2017-03-19 15:50:55) [GET]
+  Session ID: fa2c5b0724ad7da03c9336396cf281ed
+  Parameters: {"action"=>"login", "controller"=>"users"}
+Rendering users/login
+ERROR: compiling _run_rhtml_47app47views47users47login46rhtml RAISED compile error
+script/../config/../app/views/users/login.rhtml:4: syntax error, unexpected ')'
+_erbout.concat "  "; _erbout.concat(( form_tag(:action => 'login_attempt') do ).to_s); _erbout.concat "\n"
+                                                                               ^
+script/../config/../app/views/users/login.rhtml:11: syntax error, unexpected kEND, expecting ')'
+Function body: def _run_rhtml_47app47views47users47login46rhtml(local_assigns)
+_erbout = '';  @page_title = "UserAuth | Login" 
+_erbout.concat "<div class= \"Sign_Form\">\n"
+_erbout.concat "  <h1>Log in</h1>\n"
+_erbout.concat "  "; _erbout.concat(( form_tag(:action => 'login_attempt') do ).to_s); _erbout.concat "\n"
+_erbout.concat "    <p>Username or Email:</br> "; _erbout.concat(( text_field_tag(:username_or_email) ).to_s); _erbout.concat "</p> \n"
+_erbout.concat "    <p>Password:</br> "; _erbout.concat(( password_field_tag :login_password ).to_s); _erbout.concat "</p> \n"
+_erbout.concat "    "; _erbout.concat(( submit_tag("Log In") ).to_s); _erbout.concat "\n"
+_erbout.concat "  ";  end ; _erbout.concat "\n"
+_erbout.concat "</div>\n"
+_erbout
+end
+Backtrace: script/../config/../app/views/users/login.rhtml:11:in `compile_template'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_view/base.rb:319:in `compile_and_render_template'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_view/base.rb:301:in `render_template'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_view/base.rb:260:in `render_file'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:806:in `render_file'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:777:in `render_with_no_layout'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/layout.rb:256:in `render_without_benchmark'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/benchmarking.rb:50:in `render'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/1.8/benchmark.rb:293:in `measure'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/benchmarking.rb:50:in `render'
+./script/../config/../app/controllers/users_controller.rb:9:in `login'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:1095:in `send'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:1095:in `perform_action_without_filters'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:632:in `call_filter'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:619:in `perform_action_without_benchmark'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/1.8/benchmark.rb:293:in `measure'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/rescue.rb:83:in `perform_action'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:430:in `send'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:430:in `process_without_filters'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:624:in `process_without_session_management_support'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/session_management.rb:114:in `process'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:330:in `process'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/rails-1.2.3/lib/dispatcher.rb:41:in `dispatch'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/rails.rb:78:in `process'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/rails.rb:76:in `synchronize'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/rails.rb:76:in `process'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:618:in `process_client'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:617:in `each'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:617:in `process_client'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:736:in `run'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:736:in `initialize'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:736:in `new'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:736:in `run'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:720:in `initialize'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:720:in `new'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:720:in `run'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/configurator.rb:271:in `run'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/configurator.rb:270:in `each'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/configurator.rb:270:in `run'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/bin/mongrel_rails:127:in `run'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/command.rb:211:in `run'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/bin/mongrel_rails:243
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:488:in `load'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:488:in `load'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:488:in `load'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/rails-1.2.3/lib/commands/servers/mongrel.rb:60
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:495:in `require'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:495:in `require'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/rails-1.2.3/lib/commands/server.rb:39
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+./script/server:3
+
+
+ActionView::TemplateError (compile error
+script/../config/../app/views/users/login.rhtml:4: syntax error, unexpected ')'
+_erbout.concat "  "; _erbout.concat(( form_tag(:action => 'login_attempt') do ).to_s); _erbout.concat "\n"
+                                                                               ^
+script/../config/../app/views/users/login.rhtml:11: syntax error, unexpected kEND, expecting ')') on line #4 of app/views/users/login.rhtml:
+1: <% @page_title = "UserAuth | Login" -%>
+2: <div class= "Sign_Form">
+3:   <h1>Log in</h1>
+4:   <%= form_tag(:action => 'login_attempt') do %>
+5:     <p>Username or Email:</br> <%= text_field_tag(:username_or_email) %></p> 
+6:     <p>Password:</br> <%= password_field_tag :login_password %></p> 
+7:     <%= submit_tag("Log In") %>
+
+    #{RAILS_ROOT}/app/views/users/login.rhtml:11:in `compile_template'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_view/base.rb:319:in `compile_and_render_template'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_view/base.rb:301:in `render_template'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_view/base.rb:260:in `render_file'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:806:in `render_file'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:777:in `render_with_no_layout'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/layout.rb:256:in `render_without_benchmark'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/benchmarking.rb:50:in `render'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/benchmarking.rb:50:in `render'
+    app/controllers/users_controller.rb:9:in `login'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:1095:in `send'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:1095:in `perform_action_without_filters'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:632:in `call_filter'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:619:in `perform_action_without_benchmark'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/rescue.rb:83:in `perform_action'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:430:in `send'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:430:in `process_without_filters'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:624:in `process_without_session_management_support'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/session_management.rb:114:in `process'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:330:in `process'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/rails-1.2.3/lib/dispatcher.rb:41:in `dispatch'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/rails.rb:78:in `process'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/rails.rb:76:in `synchronize'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/rails.rb:76:in `process'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:618:in `process_client'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:617:in `each'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:617:in `process_client'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:736:in `run'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:736:in `initialize'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:736:in `new'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:736:in `run'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:720:in `initialize'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:720:in `new'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:720:in `run'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/configurator.rb:271:in `run'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/configurator.rb:270:in `each'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/configurator.rb:270:in `run'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/bin/mongrel_rails:127:in `run'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/command.rb:211:in `run'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/bin/mongrel_rails:243
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:488:in `load'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:488:in `load'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:488:in `load'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/rails-1.2.3/lib/commands/servers/mongrel.rb:60
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:495:in `require'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:495:in `require'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/rails-1.2.3/lib/commands/server.rb:39
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+
+Rendering /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing UsersController#login (for 103.60.21.29 at 2017-03-19 15:53:50) [GET]
+  Session ID: fa2c5b0724ad7da03c9336396cf281ed
+  Parameters: {"action"=>"login", "controller"=>"users"}
+Rendering users/login
+Completed in 0.00132 (756 reqs/sec) | Rendering: 0.00098 (74%) | 200 OK [http://10.113.57.216/users/login]
+
+
+Processing UsersController#login_attempt (for 103.60.21.29 at 2017-03-19 15:54:06) [POST]
+  Session ID: fa2c5b0724ad7da03c9336396cf281ed
+  Parameters: {"csrf_token"=>"f387624df552cea2f369918c5e1e12bc", "commit"=>"Log In", "username_or_email"=>"shilpa", "action"=>"login_attempt", "controller"=>"users", "login_password"=>"shilpa123"}
+
+
+NoMethodError (undefined method `_' for RangerUser:Class):
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activerecord-1.15.3/lib/active_record/base.rb:1235:in `method_missing'
+    .//app/models/user.rb:2
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:203:in `load_without_new_constant_marking'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:203:in `load_file'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:202:in `load_file'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:94:in `require_or_load'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:248:in `load_missing_constant'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:452:in `const_missing'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:464:in `const_missing'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:470:in `send'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:470:in `const_missing'
+    .//app/controllers/users_controller.rb:19:in `login_attempt'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:1095:in `send'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:1095:in `perform_action_without_filters'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:632:in `call_filter'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:619:in `perform_action_without_benchmark'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/rescue.rb:83:in `perform_action'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:430:in `send'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:430:in `process_without_filters'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:624:in `process_without_session_management_support'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/session_management.rb:114:in `process'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:330:in `process'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/rails-1.2.3/lib/dispatcher.rb:41:in `dispatch'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/rails.rb:78:in `process'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/rails.rb:76:in `synchronize'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/rails.rb:76:in `process'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:618:in `process_client'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:617:in `each'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:617:in `process_client'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:736:in `run'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:736:in `initialize'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:736:in `new'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:736:in `run'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:720:in `initialize'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:720:in `new'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:720:in `run'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/configurator.rb:271:in `run'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/configurator.rb:270:in `each'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/configurator.rb:270:in `run'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/bin/mongrel_rails:127:in `run'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/command.rb:211:in `run'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/bin/mongrel_rails:243
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:488:in `load'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:488:in `load'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:488:in `load'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/rails-1.2.3/lib/commands/servers/mongrel.rb:60
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:495:in `require'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:495:in `require'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/rails-1.2.3/lib/commands/server.rb:39
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    ./script/server:3
+
+
+Rendering /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing ApplicationController#index (for 103.60.21.29 at 2017-03-19 16:55:46) [GET]
+  Session ID: fa2c5b0724ad7da03c9336396cf281ed
+  Parameters: {}
+
+
+ActionController::RoutingError (no route found to match "/user/login" with {:method=>:get}):
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/routing.rb:1292:in `recognize_path'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/routing.rb:1282:in `recognize'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/rails-1.2.3/lib/dispatcher.rb:40:in `dispatch'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/rails.rb:78:in `process'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/rails.rb:76:in `synchronize'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/rails.rb:76:in `process'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:618:in `process_client'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:617:in `each'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:617:in `process_client'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:736:in `run'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:736:in `initialize'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:736:in `new'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:736:in `run'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:720:in `initialize'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:720:in `new'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:720:in `run'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/configurator.rb:271:in `run'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/configurator.rb:270:in `each'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/configurator.rb:270:in `run'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/bin/mongrel_rails:127:in `run'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/command.rb:211:in `run'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/bin/mongrel_rails:243
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:488:in `load'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:488:in `load'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:488:in `load'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/rails-1.2.3/lib/commands/servers/mongrel.rb:60
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:495:in `require'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:495:in `require'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/rails-1.2.3/lib/commands/server.rb:39
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    ./script/server:3
+
+
+Rendering /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/templates/rescues/layout.rhtml (404 Page Not Found)
+
+
+Processing ApplicationController#index (for 103.60.21.29 at 2017-03-19 16:56:02) [GET]
+  Session ID: fa2c5b0724ad7da03c9336396cf281ed
+  Parameters: {}
+
+
+ActionController::RoutingError (no route found to match "/user/login" with {:method=>:get}):
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/routing.rb:1292:in `recognize_path'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/routing.rb:1282:in `recognize'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/rails-1.2.3/lib/dispatcher.rb:40:in `dispatch'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/rails.rb:78:in `process'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/rails.rb:76:in `synchronize'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/rails.rb:76:in `process'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:618:in `process_client'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:617:in `each'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:617:in `process_client'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:736:in `run'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:736:in `initialize'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:736:in `new'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:736:in `run'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:720:in `initialize'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:720:in `new'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:720:in `run'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/configurator.rb:271:in `run'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/configurator.rb:270:in `each'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/configurator.rb:270:in `run'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/bin/mongrel_rails:127:in `run'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/command.rb:211:in `run'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/bin/mongrel_rails:243
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:488:in `load'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:488:in `load'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:488:in `load'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/rails-1.2.3/lib/commands/servers/mongrel.rb:60
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:495:in `require'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:495:in `require'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/rails-1.2.3/lib/commands/server.rb:39
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    ./script/server:3
+
+
+Rendering /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/templates/rescues/layout.rhtml (404 Page Not Found)
+
+
+Processing UsersController#login (for 103.60.21.29 at 2017-03-19 16:56:08) [GET]
+  Session ID: fa2c5b0724ad7da03c9336396cf281ed
+  Parameters: {"action"=>"login", "controller"=>"users"}
+Rendering users/login
+Completed in 0.00209 (477 reqs/sec) | Rendering: 0.00160 (76%) | 200 OK [http://10.113.57.216/users/login]
+
+
+Processing UsersController#login (for 103.60.21.29 at 2017-03-19 16:59:11) [GET]
+  Session ID: fa2c5b0724ad7da03c9336396cf281ed
+  Parameters: {"action"=>"login", "controller"=>"users"}
+Rendering users/login
+Completed in 0.00125 (801 reqs/sec) | Rendering: 0.00092 (74%) | 200 OK [http://10.113.57.216/users/login]
+
+
+Processing UsersController#login_attempt (for 103.60.21.29 at 2017-03-19 16:59:24) [POST]
+  Session ID: fa2c5b0724ad7da03c9336396cf281ed
+  Parameters: {"csrf_token"=>"f387624df552cea2f369918c5e1e12bc", "commit"=>"Log In", "action"=>"login_attempt", "controller"=>"users", "user_name"=>"shilpa", "password"=>"shilpa@123"}
+
+
+ArgumentError (Object is not missing constant User!):
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:240:in `load_missing_constant'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:452:in `const_missing'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:464:in `const_missing'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:470:in `send'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:470:in `const_missing'
+    .//app/controllers/users_controller.rb:19:in `login_attempt'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:1095:in `send'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:1095:in `perform_action_without_filters'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:632:in `call_filter'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:619:in `perform_action_without_benchmark'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/rescue.rb:83:in `perform_action'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:430:in `send'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:430:in `process_without_filters'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/filters.rb:624:in `process_without_session_management_support'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/session_management.rb:114:in `process'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/base.rb:330:in `process'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/rails-1.2.3/lib/dispatcher.rb:41:in `dispatch'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/rails.rb:78:in `process'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/rails.rb:76:in `synchronize'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/rails.rb:76:in `process'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:618:in `process_client'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:617:in `each'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:617:in `process_client'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:736:in `run'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:736:in `initialize'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:736:in `new'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:736:in `run'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:720:in `initialize'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:720:in `new'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel.rb:720:in `run'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/configurator.rb:271:in `run'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/configurator.rb:270:in `each'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/configurator.rb:270:in `run'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/bin/mongrel_rails:127:in `run'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/lib/mongrel/command.rb:211:in `run'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/mongrel-1.0/bin/mongrel_rails:243
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:488:in `load'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:488:in `load'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:488:in `load'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/rails-1.2.3/lib/commands/servers/mongrel.rb:60
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:495:in `require'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:495:in `require'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/rails-1.2.3/lib/commands/server.rb:39
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    ./script/server:3
+
+
+Rendering /home/nikira_v8/InstalledTools/RUBYROOT/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)

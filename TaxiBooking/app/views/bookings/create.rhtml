@@ -1,0 +1,5 @@
+<% if @error.nil? %>
+  <p><%= @driver.name %> 'is on the way!'</p>;
+<% else %>
+  <p><%= @error %></p>
+<% end %>
