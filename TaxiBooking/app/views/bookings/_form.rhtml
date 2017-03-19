@@ -1,0 +1,22 @@
+<%= form_tag :action => 'create', :method => 'post', remote => 'true' do %>
+  <div class="form-group">
+    <%= text_field_tag 'source', @source, {:class => 'form-control', :placeholder => 'Source', :autofocus => true %>
+    <%= hidden_field_tag :source_location, nil %>
+    <%= hidden_field_tag :source_place_id, nil %>
+  </div>
+  <div class="form-group">
+    <%= text_field_tag 'destination', 'nil', {:class => 'form-control', :placeholder => 'Destination', :autofocus => true %>
+    <%= hidden_field_tag 'destination_location', nil %>
+    <%= hidden_field_tag 'destination_place_id', nil %>
+  </div>
+  <div class="form-group">
+    <h5><b>Ride Type</b></h5>
+    <% @taxi_types.each do |taxi_type, index| %>
+      <label class="radio-inline">
+        <input type="radio" name="taxi_type" value="<%= taxi_type.id %>" <%= "checked" if index == 0 %>>
+        <%= taxi_type.name %>
+      </label>
+    <% end %>
+  </div>
+  <%= submit_tag 'BookTaxi', {:class => 'btn btn-primary btn-block' %>
+<% end %>
